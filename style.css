@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #pokemonDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .pokemon-card {
+    width: 240px;
+    background-color: #fff;
+    transition: transform 0.6s, opacity 0.6s ease-in-out;
+    transform-style: preserve-3d;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  #searchResults {
+    color: #dc3545;
+  }
+  
